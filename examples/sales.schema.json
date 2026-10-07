@@ -1,0 +1,11 @@
+{
+  "table": "sales",
+  "sheet": "销售明细",
+  "unique_key": ["order_id"],
+  "columns": [
+    {"source": "订单编号", "name": "order_id", "type": "text", "required": true},
+    {"source": "日期", "name": "order_date", "type": "date", "required": true},
+    {"source": "地区", "name": "region", "type": "text", "required": true},
+    {"source": "金额（元）", "name": "amount_minor", "type": "money", "required": true}
+  ]
+}

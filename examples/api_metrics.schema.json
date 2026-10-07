@@ -1,0 +1,12 @@
+{
+  "table": "api_metrics",
+  "unique_key": ["api_name", "major_version", "platform"],
+  "columns": [
+    {"source": "api 名字", "name": "api_name", "type": "text", "required": true},
+    {"source": "api major version", "name": "major_version", "type": "integer", "required": true},
+    {"source": "api的平台", "name": "platform", "type": "text", "required": true},
+    {"source": "api的流量", "name": "traffic", "type": "integer", "required": true},
+    {"source": "api的错误率", "name": "error_rate", "type": "real", "required": true},
+    {"source": "api 的cve数量", "name": "cve_count", "type": "integer", "required": true}
+  ]
+}

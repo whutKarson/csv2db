@@ -1,0 +1,101 @@
+﻿api_name,major_version,platform,traffic,error_rate,cve_count
+users-api-00001,4,AWS,0,0.0,0
+orders-api-00002,2,Azure,2014133,0.0856,0
+payments-api-00003,2,Google Cloud,3436428,0.0,0
+inventory-api-00004,3,阿里云,2404466,0.0,2
+search-api-00005,1,腾讯云,3402945,0.0,2
+notifications-api-00006,2,私有云,4113378,0.0009,0
+authentication-api-00007,3,本地部署,2934723,0.0007,0
+analytics-api-00008,5,AWS,1426577,0.0011,0
+shipping-api-00009,4,Azure,3591765,0.0137,1
+billing-api-00010,4,Google Cloud,831435,0.0006,1
+users-api-00011,3,阿里云,617640,0.0,2
+orders-api-00012,2,腾讯云,337624,0.0031,0
+payments-api-00013,3,私有云,136244,0.0,0
+inventory-api-00014,3,本地部署,4295635,0.0409,0
+search-api-00015,1,AWS,339957,0.0093,0
+notifications-api-00016,2,Azure,105984,0.0057,2
+authentication-api-00017,2,Google Cloud,2114587,0.0176,0
+analytics-api-00018,2,阿里云,2575314,0.0088,3
+shipping-api-00019,3,腾讯云,1649543,0.0081,0
+billing-api-00020,4,私有云,1084877,0.0006,0
+users-api-00021,3,本地部署,35281,0.0031,0
+orders-api-00022,5,AWS,3906927,0.006,0
+payments-api-00023,4,Azure,2749825,0.0299,0
+inventory-api-00024,4,Google Cloud,358371,0.0077,1
+search-api-00025,3,阿里云,1595272,0.0063,0
+notifications-api-00026,2,腾讯云,1203913,0.041,8
+authentication-api-00027,3,私有云,3334541,0.0257,0
+analytics-api-00028,1,本地部署,3839558,0.0012,3
+shipping-api-00029,2,AWS,4885305,0.2303,0
+billing-api-00030,4,Azure,3453608,0.0,0
+users-api-00031,3,Google Cloud,3769880,0.0455,3
+orders-api-00032,5,阿里云,635400,0.0096,1
+payments-api-00033,3,腾讯云,4456600,0.0069,1
+inventory-api-00034,3,私有云,4193282,0.0094,0
+search-api-00035,1,本地部署,3546783,0.0055,0
+notifications-api-00036,5,AWS,1742272,0.0093,1
+authentication-api-00037,2,Azure,105468,0.0025,0
+analytics-api-00038,1,Google Cloud,1721080,0.0024,1
+shipping-api-00039,1,阿里云,368854,0.0013,0
+billing-api-00040,4,腾讯云,2706243,0.0,0
+users-api-00041,4,私有云,377226,0.0,5
+orders-api-00042,1,本地部署,1547792,0.0037,1
+payments-api-00043,4,AWS,1641240,0.0066,2
+inventory-api-00044,2,Azure,396524,0.0074,0
+search-api-00045,5,Google Cloud,3279837,0.0012,1
+notifications-api-00046,2,阿里云,1863877,0.0584,1
+authentication-api-00047,3,腾讯云,2790909,0.0463,0
+analytics-api-00048,2,私有云,2938286,0.028,0
+shipping-api-00049,5,本地部署,4589877,0.0952,1
+billing-api-00050,2,AWS,1316250,0.0085,3
+users-api-00051,5,Azure,820341,0.002,0
+orders-api-00052,2,Google Cloud,106859,0.0,0
+payments-api-00053,3,阿里云,2848707,0.0,1
+inventory-api-00054,5,腾讯云,1808178,0.0091,3
+search-api-00055,1,私有云,3075992,0.022,0
+notifications-api-00056,4,本地部署,4748415,0.0069,5
+authentication-api-00057,4,AWS,4574570,0.0001,0
+analytics-api-00058,5,Azure,1117918,0.04,2
+shipping-api-00059,4,Google Cloud,811376,0.0444,2
+billing-api-00060,3,阿里云,2967025,0.0073,1
+users-api-00061,3,腾讯云,2198559,0.001,1
+orders-api-00062,2,私有云,1076567,0.002,3
+payments-api-00063,5,本地部署,1702215,0.0491,5
+inventory-api-00064,2,AWS,1087914,0.0098,1
+search-api-00065,4,Azure,4772564,0.0031,0
+notifications-api-00066,3,Google Cloud,4009089,0.0,0
+authentication-api-00067,5,阿里云,3568524,0.0,1
+analytics-api-00068,2,腾讯云,3453558,0.0067,0
+shipping-api-00069,1,私有云,165404,0.0047,0
+billing-api-00070,3,本地部署,2861983,0.0017,1
+users-api-00071,2,AWS,1515339,0.0087,0
+orders-api-00072,3,Azure,1962955,0.0084,0
+payments-api-00073,5,Google Cloud,1965904,0.0007,0
+inventory-api-00074,5,阿里云,64094,0.0429,0
+search-api-00075,1,腾讯云,1885990,0.0064,0
+notifications-api-00076,3,私有云,4340054,0.0,5
+authentication-api-00077,5,本地部署,3534864,0.0013,0
+analytics-api-00078,1,AWS,2809915,0.0,0
+shipping-api-00079,2,Azure,4803099,0.04,0
+billing-api-00080,4,Google Cloud,4984324,0.0088,8
+users-api-00081,4,阿里云,4029237,0.004,1
+orders-api-00082,4,腾讯云,2852770,0.102,2
+payments-api-00083,5,私有云,4986624,0.0,0
+inventory-api-00084,2,本地部署,1777147,0.0048,0
+search-api-00085,2,AWS,4403042,0.0008,8
+notifications-api-00086,1,Azure,672460,0.0231,0
+authentication-api-00087,4,Google Cloud,4817745,0.0356,0
+analytics-api-00088,2,阿里云,885924,0.0286,3
+shipping-api-00089,4,腾讯云,2939783,0.0019,0
+billing-api-00090,4,私有云,1092416,0.008,0
+users-api-00091,3,本地部署,4675982,0.138,0
+orders-api-00092,1,AWS,1889288,0.0,2
+payments-api-00093,2,Azure,2172516,0.0021,0
+inventory-api-00094,3,Google Cloud,3677885,0.0051,0
+search-api-00095,5,阿里云,2334742,0.0182,1
+notifications-api-00096,1,腾讯云,1776318,0.0,0
+authentication-api-00097,4,私有云,353018,0.0089,1
+analytics-api-00098,2,本地部署,373523,0.0308,1
+shipping-api-00099,5,AWS,1493290,0.0017,0
+billing-api-00100,4,Azure,1794941,0.0032,1
