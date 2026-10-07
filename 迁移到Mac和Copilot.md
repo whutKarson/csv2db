@@ -1,29 +1,19 @@
 # 通过 GitHub 迁移到另一台 Mac
 
-## 上传当前项目
+## 仓库与本机登录
 
-当前文件夹尚未初始化为 Git 仓库。在 GitHub 创建空仓库，例如 csv2db，不自动生成 README、License 或 .gitignore（项目已有 README 和 .gitignore）。然后在项目根目录运行，将 URL 换成你的仓库地址：
+项目已初始化并发布到公开仓库 [whutKarson/csv2db](https://github.com/whutKarson/csv2db)，默认分支 main，origin 指向该仓库。本机 GitHub CLI 安装在 ~/.local/bin/gh；GitHub 登录凭证保存在 macOS 钥匙串，并已配置 Git 使用 gh 凭证。
 
-```sh
-git init
-git branch -M main
-git add .
-git status --short
-git commit -m "Add SQLite tools and Copilot skill"
-git remote add origin https://github.com/YOUR_ACCOUNT/csv2db.git
-git push -u origin main
-```
+新终端可直接运行 gh；当前终端尚未更新 PATH 时使用 ~/.local/bin/gh。可用 gh auth status 验证登录，不要运行输出完整 token 的命令或将凭证写入仓库。
 
-检查 git status 中的提交清单。`.venv`、缓存、旧 ZIP、环境变量文件和 `data/` 下的业务数据被忽略；`examples/` 的模拟 CSV 与数据库可随项目上传。真实业务数据请放 data/，不要放 examples/。
-
-`.github` 是隐藏目录，Git 会包含它；Finder 可按 Command + Shift + . 显示。push 身份验证使用你配置的 GitHub 凭证。
+`.venv`、缓存、旧 ZIP、环境变量文件和 `data/` 下的业务数据被忽略；examples/ 仅包含虚构测试数据。
 
 ## 新 Mac clone 后使用
 
 准备 Python 3.9+、Git、VS Code 和 GitHub Copilot。在新 Mac 执行：
 
 ```sh
-git clone https://github.com/YOUR_ACCOUNT/csv2db.git
+git clone https://github.com/whutKarson/csv2db.git
 cd csv2db
 bash setup.sh
 ```
@@ -47,3 +37,5 @@ bash setup.sh
 Copilot 提供模型能力，脚本不需要额外模型 API Key；但发送给 Copilot 的字段信息和查询结果会进入模型上下文，并非全部离线。
 
 参考：[VS Code Agent Skills](https://code.visualstudio.com/docs/agent-customization/agent-skills)。
+
+新 Mac 使用私有仓库或需要推送时，另行安装 GitHub CLI 并运行 gh auth login，通过自己的浏览器登录；本机钥匙串凭证不会随 clone 迁移。这个仓库是公开的，只读 clone 不需要 Token。

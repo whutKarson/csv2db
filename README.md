@@ -7,7 +7,7 @@
 需要 Python 3.9+、Git、VS Code 和可用的 GitHub Copilot。SQLite 随 Python 提供，无需数据库服务器。
 
 ```sh
-git clone <你的仓库地址>
+git clone https://github.com/whutKarson/csv2db.git
 cd csv2db
 bash setup.sh
 ```
